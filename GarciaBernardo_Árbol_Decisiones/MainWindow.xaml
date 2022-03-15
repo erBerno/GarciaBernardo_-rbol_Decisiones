@@ -1,0 +1,15 @@
+﻿<Window x:Class="GarciaBernardo_Árbol_Decisiones.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GarciaBernardo_Árbol_Decisiones"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="457" Width="800">
+    <Grid Background="Black">
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="ÁRBOL DE DECISIONES" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" TextAlignment="Center" Foreground="Red"/>
+        <ListBox x:Name="lstShow" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="87,54,87,83"/>
+        <Button x:Name="btnInicio" Content="Iniciar Cuestionario" HorizontalAlignment="Center" Margin="0,380,0,0" VerticalAlignment="Top" Height="51" Width="216" Click="btnInicio_Click"/>
+
+    </Grid>
+</Window>
